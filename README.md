@@ -2,7 +2,7 @@
 
 ##  increase/decrease step for selection 
 ```bash
-incr [text?:]start:stop //defualt "":1:1
+incr [text?:]start:stop //default "":1:1
 input => 1:2:10  
 output => 1 3 5 7 9 
 
