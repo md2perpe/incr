@@ -14,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
             return;
         }
         let [_text,_start,_step]=pattern.trim().split(":");
-        let start ,step=1;
+        let start :any,step=1;
         if(_start===undefined){
             start=1;
             step=1;
@@ -53,7 +53,8 @@ export function activate(context: vscode.ExtensionContext) {
                     
                     start+=step;
                 }else{
-                    let tf=String(parseInt(step)+step).substr(2).length
+                    
+                    let tf=String(parseInt(step+"")-step).substr(2).length;
 
                     eb.insert(pos,_text+String(
                         Number(start).toFixed(tf)
