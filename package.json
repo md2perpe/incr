@@ -2,8 +2,9 @@
     "name": "incr",
     "displayName": "incr",
     "description": "increament start[:step]:stop",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "arashmidos",
+    "icon": "images/1.png",
     "engines": {
         "vscode": "^1.37.0"
     },
